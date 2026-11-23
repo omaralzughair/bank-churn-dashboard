@@ -89,10 +89,7 @@ These are patterns in the data, not proven causes. For example, customers with 3
 ## Files
 
 - `Churn_Dashboard.pbix`: the Power BI dashboard (open with Power BI Desktop)
-- `Churn_01_Create_And_Load.sql`: creates `ChurnDB` and the raw table, and loads the 10,000 rows
-- `Churn_02_Views.sql`: data checks, the reporting views and risk score, and check queries
-- `Churn_03_Exit_Reasons_Simulated.sql`: creates the simulated exit reasons table (run before the risk view)
 
 ## How to open
 
-Download the `.pbix` file and open it with **Power BI Desktop** (free, Windows). To rebuild the database, run the SQL scripts in order (01, 03, then 02) in SQL Server Management Studio.
+Download the `.pbix` file and open it with **Power BI Desktop** (free, Windows).
